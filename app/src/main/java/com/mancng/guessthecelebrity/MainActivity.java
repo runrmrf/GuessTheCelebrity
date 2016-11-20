@@ -190,7 +190,6 @@ public class MainActivity extends AppCompatActivity {
         chosenCeleb = random.nextInt(celebURLs.size());
 
         ImageDownloader imageTask = new ImageDownloader();
-
         Bitmap celebImage;
 
         try {
